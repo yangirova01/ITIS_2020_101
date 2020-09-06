@@ -253,7 +253,7 @@ class Unit {
     var currentHP: Int {
         didSet {
             if currentHP <= 0 {
-                print("\(name) dies")
+                // print("\(name) dies")
             }
         }
     }
